@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FarmAssist</title>
+  <link rel="icon" href="img/icons8-трактор-96.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="/img/24.png" alt="">
+        <!-- <a href="#home">FarmAssist</a> -->
+      </div>
+      <ul class="navbarlist">
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#about-d">Рекомендации</a></li>
+        <li><a href="#contact-form">Контакты</a></li>
+      </ul>
+
+      <!-- Language Switcher -->
+      <div class="language-switcher">
+        <a href="#" onclick="changeLanguage('index-en.html')" class="language-option" title="English">
+          <img src="img/english.png" alt="English">
+        </a>
+        <a href="#" onclick="changeLanguage('index-ru.html')" class="language-option" title="Русский">
+          <img src="img/russian.png" alt="Русский">
+        </a>
+        <a href="#" onclick="changeLanguage('index-kz.html')" class="language-option" title="Қазақша">
+          <img src="img/kazakh.png" alt="Қазақша">
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <div id="home" class="main">
+    <div class="main-text">
+      <h1>FarmAssist</h1>
+      <h2>Мы создаем среду для успешного развития и сотрудничества в сельском хозяйстве</h2>
+      <div class="download">
+        <h3>Наши услуги доступны в приложении FarmAssist</h3>
+        <div class="download-buttons">
+          <!-- App Store Link -->
+          <a href="https://apps.apple.com/app/id123456789" target="_blank">
+            <img src="img/Apple.jpg" alt="Загрузить в App Store" class="store-button">
+          </a>
+
+          <!-- Google Play Link -->
+          <a href="https://play.google.com/store/apps/details?id=com.example.app" target="_blank">
+            <img src="img/Google.jpg" alt="Доступно в Google Play" class="store-button">
+          </a>
+        </div>
+      </div>
+    </div>
+    <img class="phone" src="img/FarmAssist hand.png" alt="" srcset="">
+  </div>
+
+  <div id="about" class="main-text2">
+    <p><span class="farmassist">FarmAssist</span> — это универсальное решение, которое помогает повысить эффективность
+      сельскохозяйственной деятельности. Сочетая новости, финансы, база знаний и сообщество, приложение
+      создает среду для успешного развития и сотрудничества в сельском хозяйстве.</p>
+  </div>
+
+  <div id="services" class="functions">
+    <h1 class="h1">Функции для улучшения аграрного сектора</h1>
+    <div class="container-main">
+      <div class="container">
+        <div class="feature" data-image="img/FarmAssist 2.png">
+          <div class="feature-block">
+            <img src="img/icon-1.svg" alt="">
+            <div class="feature-text">
+              <h4>Вход/Регистрация</h4>
+              <p>Каждый пользователь будет иметь свой личный аккаунт для управления своей фермы</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature" data-image="img/FarmAssist 1.png">
+          <div class="feature-block">
+            <img src="img/icon-3434-2.svg" alt="">
+            <div class="feature-text">
+              <h4>Новостной блок</h4>
+              <p>Актуальная погода и последние новости про аграрный сектор из мира, Центральной Азии и Казахстана</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature" data-image="img/FarmAssist 3.png">
+          <div class="feature-block">
+            <img src="img/icon-3434-1.svg" alt="">
+            <div class="feature-text">
+              <h4>Финансы</h4>
+              <p>Все ваши финансовые операции в одном месте</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature" data-image="img/FarmAssist 5.png">
+          <div class="feature-block">
+            <img src="img/icon-3434.svg" alt="">
+            <div class="feature-text">
+              <h4>База знаний</h4>
+              <p>Больше 1600 статьей про сельское хозяйство и животноводство</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="feature" data-image="img/FarmAssist 4.png">
+          <div class="feature-block">
+            <img src="img/icon-3434-3.svg" alt="">
+            <div class="feature-text">
+              <h4>Cообщество</h4>
+              <p>Общайтесь, задавайте вопросы, обменивайтесь полезной информацией и лайфхаками с другими фермерами</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="img/FarmAssist.png" alt="Основное изображение" class="main-image">
+      </div>
+    </div>
+  </div>
+
+  <section id="about-d" class="py-4">
+    <div class="container">
+      <h2 class="section-title"><span class="farmassist">Рекомендации</span></h2>
+      <div class="bottom-line"></div>
+      <div class="testimonials">
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>
+              Это приложение значительно улучшило мой подход к фермерскому делу, помогло найти новые возможности и
+              наладить связи.
+            </p>
+          </div>
+          <div class="author-info">
+            <img src="testimonials/person1.jpg" alt="">
+            <p>Сэм Смит, Нью-Йорк</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>
+              Прекрасный инструмент для тех, кто хочет эффективно управлять своим агробизнесом. Полезные консультации и
+              советы.
+            </p>
+          </div>
+          <div class="author-info">
+            <img src="testimonials/person2.jpg" alt="">
+            <p>Сара Уильямс, Мичиган</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>
+              Благодаря этому приложению я узнал о передовых методах и технологиях. Очень доволен результатами!
+            </p>
+          </div>
+          <div class="author-info">
+            <img src="testimonials/person3.jpg" alt="">
+            <p>Джилл Джонсон, Лондон</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>
+              Информационный блок и новости — отличные! С удовольствием пользуюсь FarmAssist и рекомендую всем коллегам.
+            </p>
+          </div>
+          <div class="author-info">
+            <img src="testimonials/person4.jpg" alt="">
+            <p>Стив Томпсон, Бостон</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-form" class="py-3">
+    <div class="container">
+      <h1 class="l-heading"><span class="farmassist">Свяжитесь</span> с нами</h1>
+      <p>Пожалуйста, заполните форму ниже, чтобы связаться с нами</p>
+      <form action="process.php">
+        <div class="form-group">
+          <label for="name">Имя</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div class="form-group">
+          <label for="email">Электронная почта</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="message">Сообщение</label>
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <button type="submit" class="btn">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-main">
+        <div class="footer-section">
+          <h3><span class="farmassist">FarmAssist</span></h3>
+          <p>Мы стремимся предоставлять высококачественные услуги для фермеров в Казахстане, помогая им развивать свои
+            хозяйства и повышать производительность.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3><span class="farmassist">Наш адрес:</span></h3>
+          <p>Казахстан, Алматы, проспект Аль-Фараби 71</p>
+          <div class="footer-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2907.247794648462!2d76.92000557567621!3d43.22526408000404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836f18bf548af5%3A0x4eb3eb5eaef8aa6!2z0JrQsNC30LDRhdGB0LrQuNC5INCd0LDRhtC40L7QvdCw0LvRjNC90YvQuSDQo9C90LjQstC10YDRgdC40YLQtdGCINC40LzQtdC90Lgg0JDQu9GMLdCk0LDRgNCw0LHQuA!5e0!3m2!1sru!2skz!4v1729109558674!5m2!1sru!2skz"
+              width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3><span class="farmassist">Follow Us:</span></h3>
+          <ul class="social-icons">
+            <li><a href="https://gmail.com" target="_blank"><img src="img/Icons-green.svg" alt="Mail">Mail</a></li>
+            <li><a href="https://facebook.com" target="_blank"><img src="img/facebook-02.svg" alt="Facebook">Facebook</a>
+            </li>
+            <li><a href="https://whatsapp.com" target="_blank"><img src="img/Vector_6.svg" alt="Whatsapp">Whatsapp</a>
+            </li>
+            <li><a href="https://instagram.com" target="_blank"><img src="img/instagram.svg" alt="Instagram">Instagram</a>
+            </li>
+            <li><a href="https://youtube.com" target="_blank"><img src="img/you_tube.svg" alt="Youtube">Youtube</a></li>
+          </ul>
+        </div>
+      </div>
+      <p>&copy; 2025 FarmAssist. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

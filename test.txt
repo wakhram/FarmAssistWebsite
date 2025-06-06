@@ -1,0 +1,142 @@
+.main {
+  height: 100vh;
+  /* Full viewport height */
+  width: 100%;
+  position: relative;
+  background-image: url('img/mainPhoto.jpg');
+  /* Push content below the fixed navbar */
+}
+
+.main h1 {
+  color: #7ed957;
+}
+
+.main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Ensures the image covers the entire area */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+---------------
+  <div class="functions">
+    <h1>Functions for improving Agribusiness</h1>
+    <div class="container">
+      <div class="feature">
+        <div class="feature-text">
+          <h4>Information block</h4>
+          <p>Assistance tools for farming development in Kazakhstan</p>
+        </div>
+        <div class="feature-image">
+          <img src="img/IPhone_14_Pro_Max.png" alt="Информационный блок" class="hidden-image">
+        </div>
+      </div>
+    
+      <div class="feature">
+        <div class="feature-text">
+          <h4>Consultations</h4>
+          <p>Get a free consultation from professionals and opinion leaders</p>
+        </div>
+        <div class="feature-image">
+          <img src="img/IPhone_14_Pro_Max-2.png" alt="Консультации" class="hidden-image">
+        </div>
+      </div>
+    
+      <div class="feature">
+        <div class="feature-text">
+          <h4>Rental and exchange of special equipment</h4>
+          <p>Advertisements and specifications all in one place</p>
+        </div>
+        <div class="feature-image">
+          <img src="img/IPhone_14_Pro_Max-5.png" alt="Новостной блог" class="hidden-image">
+        </div>
+      </div>
+    
+      <div class="feature">
+        <div class="feature-text">
+          <h4>News blog</h4>
+          <p>All the most important things in the world of Agro, current articles, regulations and much more</p>
+        </div>
+        <div class="feature-image">
+          <img src="img/IPhone_14_Pro_Max-3.png" alt="Аренда и обмен" class="hidden-image">
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="feature-text">
+          <h4>Chats</h4>
+          <p>Communicate, exchange useful information and life hacks with other farmers</p>
+        </div>
+        <div class="feature-image">
+          <img src="img/IPhone_14_Pro_Max-4.png" alt="Чаты" class="hidden-image">
+        </div>
+      </div>
+    </div>
+    <img src="img/IPhone_14_Pro_Max-1.png" alt="">
+  </div>
+
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.feature {
+  position: relative;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+  overflow: hidden;
+}
+
+.feature-text h4 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.feature-text p {
+  font-size: 14px;
+  margin: 0;
+  transition: font-size 0.3s;
+}
+
+.feature:hover {
+  transform: scale(1.05);
+}
+
+.feature:hover .feature-text h4,
+.feature:hover .feature-text p {
+  font-size: 20px;
+}
+
+.feature-image {
+  display: none;
+}
+
+.feature:hover .feature-image {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 1;
+}
+
+.hidden-image {
+  display: none;
+}
+
+.feature:hover .hidden-image {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+---------------
